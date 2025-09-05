@@ -14,12 +14,14 @@ body {
     border: black 1px solid;
     padding: 20px;
     font-family: "Lilita One" , sans-serif!important;
+ 
 }
 
 .main {
     text-align: center;
     background-color: var(--secondary-bg-color);
     border: black 1px solid;
+  height: 800px;
     border-radius: 4px;
    
 }
@@ -27,20 +29,32 @@ body {
 .main h1 {
     font-size: 78px;
     line-height: 0.2;
+    color: var(--highlights-2-color);
+     -webkit-text-stroke: 1.2px var(--detail-color);
    
 }
 
-.main a {
+.main .btn {
 font-size: 25px;
+color: #FFEEDB;
 padding: 12px 20px;
 margin-top: 12px;
 margin-left: 550px;
 border-radius: 50px;
 background-color: var(--highlights-1-color);
+}
 
+.main img {
+    width: 40%;
+    padding-top: 30px;
+}
+
+.main h2 {
+    -webkit-text-stroke: 1.2px black;
 }
 
 ul {
+    font-family: "Limelight", sans-serif!important;
 margin-top: 150px!important;
 margin-left: -38px;
 list-style: none;
@@ -51,6 +65,13 @@ li {
 line-height: 3.5;
 }
 
+.active {
+  background-color: var(--highlights-2-color);
+  color: var(--secondary-bg-color);
+padding: 12px 15px;
+border-radius: 16px;
+}
+
 li a {
     color: black;
     text-decoration: none;
@@ -58,5 +79,22 @@ li a {
 
 .grid {
     display: grid;
-grid-template-columns: 135px 1fr;
+grid-template-columns: 170px 1fr;
 }
+
+.footer {
+    text-align: center;
+padding-top: 30px;
+}
+
+.footer h3 {
+        font-size: 18px;
+        margin-top: 50px;
+}
+
+.footer a {
+      color: var(--highlights-1-color);
+    text-decoration: none;
+}
+
+
