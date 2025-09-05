@@ -1,0 +1,62 @@
+:root {
+    --primary-bg-color: #5C9EAD;
+    --secondary-bg-color: #FFEEDB;
+    --highlights-1-color: #F08700;
+    --highlights-2-color: #DB5461;
+    --detail-color: #124559;
+  
+
+}
+
+
+body {
+    background-color: var(--primary-bg-color)!important;
+    border: black 1px solid;
+    padding: 20px;
+    font-family: "Lilita One" , sans-serif!important;
+}
+
+.main {
+    text-align: center;
+    background-color: var(--secondary-bg-color);
+    border: black 1px solid;
+    border-radius: 4px;
+   
+}
+
+.main h1 {
+    font-size: 78px;
+    line-height: 0.2;
+   
+}
+
+.main a {
+font-size: 25px;
+padding: 12px 20px;
+margin-top: 12px;
+margin-left: 550px;
+border-radius: 50px;
+background-color: var(--highlights-1-color);
+
+}
+
+ul {
+margin-top: 150px!important;
+margin-left: -38px;
+list-style: none;
+}
+
+li {
+    font-size: 19px;
+line-height: 3.5;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+grid-template-columns: 135px 1fr;
+}
