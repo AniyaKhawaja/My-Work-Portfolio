@@ -14,10 +14,95 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Limelight&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<style>
+.section-1{
+    text-align: center;
+    padding-top: 30px;
+    background-color: var(--secondary-bg-color);
+    border: black 1px solid;
+  height: 800px;
+    border-radius: 4px;
+}
+
+.section-1 h2 {
+  font-size: 80px;
+  font-family: "Limelight", sans-serif;
+  color: var(--highlights-1-color);
+   -webkit-text-stroke: 2px var(--highlights-2-color);
+}
+.section-1 p {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+ .sub-titles {
+  font-family: "Limelight", sans-serif;
+  color: var(--highlights-2-color);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var( --primary-bg-color);
+  text-decoration-thickness: 1.5px;
+}
+
+.hobby {
+display: flex;
+gap: 30px;
+margin-top: 0!important;
+margin-left: 28px;
+}
+
+.hobby li {
+  font-size: 28px;
+}
+
+.hobby h4 {
+  font-size: 26px;
+  color: var(--detail-color);
+  font-family: "Lilita One" , sans-serif;
+}
+
+li i {
+  width: 30px;
+}
+
+.S-skills h4 {
+  color: var(--detail-color);
+}
+
+.C-skills ul {
+  list-style: disc;
+  margin-top: 0;
+   list-style-position: inside;
+   text-align: center;
+}
+
+ ::marker {
+  color: var(--highlights-1-color);
+}
+
+.C-skills li {
+line-height: 2;
+ }
+
+.footer2 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.footer2 h3 {
+        font-size: 18px;
+}
+
+.footer2 a {
+      color: var(--highlights-1-color);
+    text-decoration: none;
+}
+
+</style>
 <body>
 <i class="fa-solid fa-laptop-code">ANIYA</i>
 
-<div class="grid">
+<div class="grid1">
   
   <ul>
     <li>
@@ -37,24 +122,79 @@
            <a href="index.html"> Contact</a> 
         </li>
   </ul>
+<span class="section-1">
+  <div class="grid-2-columns">
+ <div>
+    <h2>Hi, I'm Aniya</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<div>
+      <img src="Tam Kaur.jpg" width="50%" class="rounded-3">
+  </div>
+  </div>
+  <hr>
+  <span class="section-2">
+    <div class="grid-2-columns">
+      <div>
+<h3 class="sub-titles">Hobbies & Interests</h3>
+   
 
-  <div class="main">
-    <img src="....">
-  <h1>Aniya Khawaja</h1>
-  <br>
-  <a href="....." class="btn">
-   <h2>
-    Work with Me
-  </h2>
-</a>
-<br>
-<div class="footer">
+    <ul class="hobby">
+  <li>
+    <i class="fa-solid fa-palette"></i>
+    <h4>Drawing & 
+       Painting
+    </h4>
+  </li>
+
+  <li>
+  <i class="fa-solid fa-shirt"></i>
+    <h4>Crocheting
+    </h4>
+  </li>
+
+    <li>
+  <i class="fa-solid fa-film"></i>
+    <h4>Video editing
+    </h4>
+  </li>
+</ul>
+ </div>
+
+
+ <div>
+<h3 class="sub-titles">Technial Skills</h3>
+    <div class="S-skills grid-2-columns">
+     <div>
+      <h4>Software skills</h4>
+     </div>
+
+<div class="C-skills">
+    <h4>Coding skills</h4>
+     <ul class>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+     </ul>
+     </div>
+
+     </div>
+ </div>
+    </div>
+  </span>
+
+
+
+
+  <div class="footer2">
 <h3>
     This project was coded by Aniya Khawaja, is open-sourced on <a href="https://github.com/AniyaKhawaja" title="Github Profile">Github</a> and Deployed on<a href="https://app.netlify.com" title="Netlify"> Netlify</a>.
  </h3>
   </div>
-  </div>
-
-  </div>
+  </span>
+  
 </body>
 </html>
