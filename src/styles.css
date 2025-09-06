@@ -12,7 +12,7 @@
 body {
     background-color: var(--primary-bg-color)!important;
     border: black 1px solid;
-    padding: 20px;
+    padding: 12px;
     font-family: "Lilita One" , sans-serif!important;
  
 }
@@ -53,14 +53,14 @@ background-color: var(--highlights-1-color);
     -webkit-text-stroke: 1.2px black;
 }
 
-ul {
-    font-family: "Limelight", sans-serif!important;
-margin-top: 150px!important;
-margin-left: -38px;
-list-style: none;
+.grid1 ul {
+ font-family: "Limelight", sans-serif!important;
+padding-inline-start: 0px;
+ margin-top: 120px;
+  list-style: none;
 }
 
-li {
+.grid1 li {
     font-size: 19px;
 line-height: 3.5;
 }
@@ -77,11 +77,16 @@ li a {
     text-decoration: none;
 }
 
-.grid {
+.grid1 {
     display: grid;
 grid-template-columns: 170px 1fr;
 }
 
+.grid-2-columns {
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
 .footer {
     text-align: center;
 padding-top: 30px;
@@ -96,5 +101,3 @@ padding-top: 30px;
       color: var(--highlights-1-color);
     text-decoration: none;
 }
-
-
