@@ -102,3 +102,10 @@ position: fixed;
       color: var(--highlights-1-color);
     text-decoration: none;
 }
+
+@media (max-height: 1400px) {
+  .footer2 {
+    text-align: center;
+    padding: 400px;
+  }
+}
