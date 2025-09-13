@@ -90,6 +90,7 @@ grid-template-columns: 1fr 1fr;
 .footer {
     text-align: center;
 padding-top: 225px;
+position: fixed;
 }
 
 .footer h3 {
