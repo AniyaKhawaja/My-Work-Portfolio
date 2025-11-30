@@ -21,7 +21,7 @@ body {
     text-align: center;
     background-color: var(--secondary-bg-color);
     border: black 1px solid;
-  height: 1400px;
+  height: 800px;
     border-radius: 4px;
    
 }
@@ -89,8 +89,7 @@ grid-template-columns: 1fr 1fr;
 }
 .footer {
     text-align: center;
-padding-top: 225px;
-position: fixed;
+padding-top: 30px;
 }
 
 .footer h3 {
@@ -103,7 +102,26 @@ position: fixed;
     text-decoration: none;
 }
 
-@media (max-height: 1400px) {
+@media (max-width: 430px) {
+.body {
+  width: 300px;
+}
+.main h1 {
+  font-size: 70px;
+}
+
+  .main{
+height: 1750px;
+}
+  .main .btn {
+  margin-left: 270px;
+}
+.footer h3 {
+  font-size: 16px;
+  margin-top: 1040px;
+}
+
+
   .footer2 {
     text-align: center;
     padding-top: 400px;
